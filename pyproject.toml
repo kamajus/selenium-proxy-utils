@@ -1,0 +1,19 @@
+[project]
+name = "selenium_proxy_carlosmateus"
+version = "0.0.1"
+authors = [
+  { name="Carlos Mateus", email="carlosmatateumateus@gmail.com" },
+]
+description = "A simple library to facilitate the use of proxies with Selenium and Python."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { text = "MIT" }
+
+
+[project.urls]
+Homepage = "https://github.com/kamajus/selenium-proxy"
+Issues = "https://github.com/kamajus/selenium-proxy/issues"
