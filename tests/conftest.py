@@ -30,7 +30,7 @@ def test_proxy(proxy: Proxy):
         }
         print(proxy_dict)
 
-        response = requests.get("http://www.spotify.com", proxies=proxy_dict, timeout=5)
+        response = requests.get("https://apip.cc/json", proxies=proxy_dict, timeout=5)
         response.raise_for_status()
         return proxy
     except requests.exceptions.RequestException:
