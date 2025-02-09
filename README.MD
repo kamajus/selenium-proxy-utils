@@ -1,6 +1,6 @@
-# Selenium Proxy Extension
+# Selenium Proxy
 
-A simple extension to facilitate the use of proxies with Selenium and Python.
+A simple library to facilitate the use of proxies with Selenium and Python.
 
 ## Installation
 
@@ -43,16 +43,9 @@ time.sleep(120)
 driver.quit()
 ```
 
-## Features
-- Easily integrate proxy settings into Selenium WebDriver
-- Supports authenticated proxies
-- Reduce unnecessary logging for a cleaner console output
-- Simple installation and usage
-
 ## Requirements
 - Python 3.x
 - Selenium
 
 ## License
 This project is licensed under the MIT License.
-
