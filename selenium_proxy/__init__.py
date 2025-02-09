@@ -1,9 +1,9 @@
 from selenium.webdriver.chrome.options import Options as OptionsChrome
 from selenium.webdriver.edge.options import Options as OptionsEdge
 
-from plugin.exceptions import BrowserNotSupported
-from plugin.schemas import Proxy
-from plugin.webdriver import Chrome, Edge
+from selenium_proxy.exceptions import BrowserNotSupported
+from selenium_proxy.schemas import Proxy
+from selenium_proxy.webdriver import Chrome, Edge
 
 
 def add_proxy(browser_options, proxy: Proxy):

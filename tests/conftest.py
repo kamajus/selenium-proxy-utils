@@ -3,7 +3,7 @@ import random
 import pytest
 import requests
 
-from plugin.schemas import Proxy
+from selenium_proxy.schemas import Proxy
 
 
 def get_proxies() -> dict:

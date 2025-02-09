@@ -1,5 +1,5 @@
 [project]
-name = "selenium_proxy_carlosmateus"
+name = "selenium-proxy"
 version = "0.0.1"
 authors = [
   { name="Carlos Mateus", email="carlosmatateumateus@gmail.com" },
