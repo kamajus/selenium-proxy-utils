@@ -5,7 +5,7 @@ A simple library to facilitate the use of proxies with Selenium and Python.
 ## Installation
 
 ```sh
-pip install selenium_proxy
+pip install selenium-proxy-utils
 ```
 
 ## Usage

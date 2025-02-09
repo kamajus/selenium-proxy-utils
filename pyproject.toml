@@ -1,5 +1,9 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "selenium-proxy"
+name = "selenium-proxy-utils"
 version = "0.0.1"
 authors = [
   { name="Carlos Mateus", email="carlosmatateumateus@gmail.com" },
@@ -13,7 +17,6 @@ classifiers = [
 ]
 license = { text = "MIT" }
 
-
 [project.urls]
-Homepage = "https://github.com/kamajus/selenium-proxy"
-Issues = "https://github.com/kamajus/selenium-proxy/issues"
+Homepage = "https://github.com/kamajus/selenium-proxy-utils"
+Issues = "https://github.com/kamajus/selenium-proxy-utils/issues"
